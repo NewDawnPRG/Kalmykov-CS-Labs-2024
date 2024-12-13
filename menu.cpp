@@ -206,7 +206,7 @@ void StartHalfDivisionMethod() {
 EquationResult CalculateHalfDivisionMethod(double сoefficient, double accuracy, double left, double right) {
     EquationResult res;
     if (left > right) {
-        std::swap(left,right);
+        std::swap(left, right);
     }
 
     if (IsFunctionsSignsEqual(left, right, сoefficient) == true) {
