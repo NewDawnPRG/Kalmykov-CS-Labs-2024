@@ -185,7 +185,7 @@ void SelectionSort(int* arrSelection, size_t arraySize, bool switchMinMax, int& 
         rememberedIndex = i;
 
         for (size_t t = i + 1; t < arraySize; t++) {
-            if (switchMinMax ?  arrSelection[t] > arrSelection[rememberedIndex] : arrSelection[t] < arrSelection[rememberedIndex]) {
+            if (switchMinMax ? arrSelection[t] > arrSelection[rememberedIndex] : arrSelection[t] < arrSelection[rememberedIndex]) {
                 rememberedIndex = t;
             }
             ++comparisionsNumber;
